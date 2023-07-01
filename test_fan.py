@@ -15,6 +15,10 @@ class TestFan:
         print("Fan 1 - On:", fan1.is_on())
 
         # Display properties of the second fan
+        print("Fan 2 - Speed:", fan2.get_speed())
+        print("Fan 2 - Radius:", fan2.get_radius())
+        print("Fan 2 - Color:", fan2.get_color())
+        print("Fan 2 - On:", fan2.is_on())
 
 # Create an instance  of the TestFan and run the test
 test = TestFan()
