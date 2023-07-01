@@ -9,10 +9,10 @@ class TestFan:
         fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
 
         # Display properties of the first fan
-        print("Fan 1 - Speed:" fan1.set_speed())
-        print("Fan 1 - Radius:" fan1.set_radius())
-        print("Fan 1 - Color:" fan1.set_color())
-        print("Fan 1 - On:" fan1.set_on())
+        print("Fan 1 - Speed:", fan1.get_speed())
+        print("Fan 1 - Radius:", fan1.get_radius())
+        print("Fan 1 - Color:", fan1.get_color())
+        print("Fan 1 - On:", fan1.is_on())
 
         # Display properties of the second fan
 
