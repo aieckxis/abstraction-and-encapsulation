@@ -5,7 +5,9 @@ from car import Car
 def main():
 
     # Print the initial speed of the car
-    print("Initial speed: " car.get_speed())
+    print("Initial speed: ", car.get_speed())
 # Accelerate the car five times
 # Brake the car five times
 # Check if the current file is the main file being executed
+if __name__ == "__main__":
+    main()
