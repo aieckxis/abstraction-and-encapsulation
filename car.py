@@ -4,7 +4,7 @@
 # Car class represents a car object
 class Car:
     # Constructor to initialize the car's year model, make, and speed
-    def __init__(self):
+    def __init__(self, year_model, make):
         self.__year_model = year_model
         self.__make = make
         self.__speed = 0
