@@ -11,7 +11,12 @@ def main():
     for _ in range(5):
         car.accelerate()
         print("Current speed after accelerating:", car.get_speed())
+
     # Brake the car five times
+    for _ in range(5):
+        car.brake()
+        print("Current speed after braking:", car.get_speed())
+
 # Check if the current file is the main file being executed
 if __name__ == "__main__":
     main()
