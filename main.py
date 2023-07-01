@@ -8,7 +8,7 @@ def main():
     print("Initial speed: ", car.get_speed())
 
     # Accelerate the car five times
-    for car in range(5):
+    for _ in range(5):
         car.accelerate()
         print("Current speed after accelerating:", car.get_speed)
     # Brake the car five times
