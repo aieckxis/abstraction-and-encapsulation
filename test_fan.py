@@ -1,5 +1,9 @@
 # Import Fan from fan
-# Define class TestFan
+from fan import Fan
+
+class TestFan:
+    # Define class TestFan
+    def run_test(self):
 # Create two Fan objects
 # Display properties of the first fan
 # Display properties of the second fan
