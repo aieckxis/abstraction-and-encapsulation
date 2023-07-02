@@ -3,7 +3,7 @@ from pet import Pet
 
 # Main function to test the Pet class
 def main():
-    
+
     # Create an instance for Pet class
     pet = Pet()
 
@@ -18,7 +18,11 @@ def main():
     pet.set_age(age)
 
     # Print the pet's information
+    print("")
+    print("\033[1mPET'S INFORMATION\033[0m")
     print("Pet's name: ", pet.get_name())
+    print("Animal type: ", pet.get_animal_type())
+    print("Pet's age: ", pet.get_age())
 
 # Check if the current file is the main file being executed
 if __name__ == "__main__":
