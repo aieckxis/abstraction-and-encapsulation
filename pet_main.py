@@ -18,4 +18,7 @@ def main():
 
     # Print the pet's information
     print("Pet's name: ", pet.get_name())
+
 # Check if the current file is the main file being executed
+if __name__ == "__main__":
+    main()
