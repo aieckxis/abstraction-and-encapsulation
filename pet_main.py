@@ -8,13 +8,13 @@ def main():
 
     # Ask the user for pet's information
     name = input("Enter the name of your pet: ")
-    pet.set_name()
+    pet.set_name(name)
 
     animal_type = input("Enter the type of animal your pet is: ")
-    pet.set_animal_type()
+    pet.set_animal_type(animal_type)
 
     age = input("Enter the age of your pet: ")
-    pet.set_age()
+    pet.set_age(age)
 
     # Print the pet's information
     print("Pet's name: ", pet.get_name())
