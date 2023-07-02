@@ -8,10 +8,19 @@ class Pet:
         self.__name = ""
         self.__animal_type = ""
         self.__age = 0
+
+    # Set the value of the name attribute
+    def set_name(self):
+        self.__name = name
+
+    # Set the value of the animal_type attribute
+    def set_animal_type(self):
+        self.__animal_type = animal_type
+
+    # Set the value of the age attribute
+    def set_age(self):
+        self.__age = age
         
-# Set the value of the name attribute
-# Set the value of the animal_type attribute
-# Set the value of the age attribute
 # Return the value of the name attribute
 # Return the value of the animal_type attribute
 # Return the value of the age attribute
