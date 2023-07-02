@@ -10,15 +10,15 @@ class Pet:
         self.__age = 0
 
     # Set the value of the name attribute
-    def set_name(self):
+    def set_name(self, name):
         self.__name = name
 
     # Set the value of the animal_type attribute
-    def set_animal_type(self):
+    def set_animal_type(self, animal_type):
         self.__animal_type = animal_type
 
     # Set the value of the age attribute
-    def set_age(self):
+    def set_age(self, age):
         self.__age = age
 
     # Return the value of the name attribute
