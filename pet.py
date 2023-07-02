@@ -20,7 +20,15 @@ class Pet:
     # Set the value of the age attribute
     def set_age(self):
         self.__age = age
-        
-# Return the value of the name attribute
-# Return the value of the animal_type attribute
-# Return the value of the age attribute
+
+    # Return the value of the name attribute
+    def get_name(self):
+        retuen self.__name
+
+    # Return the value of the animal_type attribute
+    def get_animal_type(self):
+        retuen self.__animal_type
+
+    # Return the value of the age attribute
+    def get_age(self):
+        retuen self.__age
